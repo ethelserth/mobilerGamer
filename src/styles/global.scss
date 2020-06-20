@@ -9,9 +9,9 @@ body {
   margin-top: 0
 }
 body.light {
-  --primary-color: #381696;
+  --primary-color: #169661;
   --primary-text-color: #fff;
-  --featured-bg: #493b8a;
+  --featured-bg: #3b8a3d;
   --featured-text: #fff;
   --secondary-color: #10072b;
   --background: #fff;
@@ -66,15 +66,13 @@ a {
 }
 .site-wrapper {
   padding: 32px;
-  max-width: 1140px;
+  max-width: 1200px;
   margin: 0 auto;
   img {
     max-width: 100%;
   }
 }
 .navigation {
-  display: flex;
-  align-items: center;
   font-weight: 300;
   a {
     color: #888;
@@ -92,14 +90,7 @@ a {
     }
   }
 }
-.site-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 0;
-  background: var(--site-header);
-  margin-bottom: 32px;
-  align-items: center;
-}
+
 .site-title a {
   color: var(--primary-color);
   text-decoration: none;
@@ -335,6 +326,7 @@ body.light {
   width: 24px;
   height: 24px;
   margin-left: 20px;
+  display:none;
 }
 // CSS.gg icons for sun and moon
 .gg-sun {
@@ -404,4 +396,26 @@ body.light {
     box-shadow: 0 0 0 2px;
     top: 8px;
     left: 2px
+}
+
+//custom
+
+.site-header {
+  display: block;
+  width:100%;
+  position:relative;
+  .header-wrapper{
+    padding:15px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    position:relative;
+    .site-title{
+      display:inline-block;
+    }
+    .navigation{
+      display: inline-block;
+      float: right;
+      font-weight: 300;
+    }
+  }
 }

@@ -16,17 +16,21 @@ export default ({ children }) => {
     `
   )
   return (
-    <div className="site-wrapper">
+    <div class="wrp">
       <header className="site-header">
-        <div className="site-title">
-          <Link to="/">{data.site.siteMetadata.title}</Link>
+        <div className="header-wrapper">
+          <div className="site-title">
+            <Link to="/">{data.site.siteMetadata.title}</Link>
+          </div>
+          <Navigation />
         </div>
-        <Navigation />
-      </header>
-      {children}
-      <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} Delog &bull; Crafted with <span role="img" aria-label="love">❤️</span> by <a href="https://w3layouts.com">W3Layouts</a></p>
-      </footer>
+        </header>
+      <div className="site-wrapper">
+        {children}
+        <footer className="site-footer">
+          <p>&copy; {new Date().getFullYear()} Delog &bull; Crafted with <span role="img" aria-label="love">❤️</span> by <a href="https://w3layouts.com">W3Layouts</a></p>
+        </footer>
+      </div>
     </div>
   )
 }
