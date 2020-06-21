@@ -14,7 +14,10 @@ const PostLink = ({ post }) => (
           {post.frontmatter.title}
         </Link>
       </h2>
-      <div className="post-meta">{post.frontmatter.date}</div>
+      <div class="post-dets">
+        <div className="post-meta">{post.frontmatter.date}</div>
+        <div className={"posty-type post-type-"+post.frontmatter.category}>{post.frontmatter.category}</div>
+      </div>
     </header>
   </article>
 )
