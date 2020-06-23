@@ -13,4 +13,4 @@ The gameplay is pretty basic. You build a deck of cards based on one of the four
 
 While you climb the ranks and you level, you have the option to upgrade your cards and minions and unlock new ones. The game also have various achivment missions and dailys that helps with the overal progress.
 
-Right now there is over 100 cards in the game, with the developer prommising to add more in future updates. This number give every player a big pull of cards to strategize and create unique ways to defeat their enemies in fun, quick paced battles.
+Right now there is over 100 cards in the game, with the developer prommising to add more in future updates. This number give every player a big pull of cards to strategize and create unique ways to defeat their enemies in fun, quick paced battles. If you like to play your games in short bursts and then log off, then this one is for you.
