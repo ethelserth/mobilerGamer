@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /romancing-saga-re-universe
-date: 2020-06-21T08:34:14.703Z
+date: 2020-06-17T08:34:14.703Z
 title: Romancing Saga Re Universe Global Release
 category: News
 metaDescription: >-
