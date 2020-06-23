@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /weapon-masters-roguelike-review
-date: 2020-06-19T09:29:08.969Z
+date: 2020-06-10T09:29:08.969Z
 title: 'Weapon Masters:Roguelike - an improved Archero experience'
 category: review
 metaDescription: 'Weapon Masters : Roguelike, a modern Archero clone'
