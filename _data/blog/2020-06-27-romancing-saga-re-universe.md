@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /romancing-saga-re-universe-review
-date: 2020-06-27T07:49:14.029Z
+date: 2020-06-25T07:49:14.029Z
 title: 'Romancing Saga Re:Universe'
 category: review
 metaDescription: 'Romancing Saga Re:Universe has just released and boy, it is goog.'
